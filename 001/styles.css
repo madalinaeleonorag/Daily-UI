@@ -1,0 +1,150 @@
+body {
+  background: linear-gradient(50deg, #f0f0f2, #c2bbc2);
+  font-family: system-ui;
+  display: flex;
+  justify-content: center;
+}
+
+.content1 {
+  display: flex;
+  flex-flow: row;
+  margin: 5vh 5vw;
+  box-shadow: 0 0px 6px -3px #737690;
+  min-height: 75vh;
+  width: 70vw;
+  border-radius: 3px;
+}
+
+.content1 .left-side {
+  background: #dbdce1;
+  display: flex;
+  padding: 5vh 5vw;
+  flex-flow: column;
+}
+
+.content1 .left-side .paw-icon {
+  width: 50px;
+  background: #f0f0f2;
+  padding: 10px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 0 #ffffff;
+  margin: 0 0 10vh 0;
+  transform: rotate(-30deg);
+}
+
+.content1 .left-side .paw-icon g {
+    fill: #737690;
+}
+
+.content1 .left-side .title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #737690;
+}
+
+.content1 .left-side ul {
+  padding: 0;
+  font-weight: bold;
+  color: #737690;
+}
+
+.content1 .left-side ul li {
+  padding: 1vh 0;
+}
+
+.content1 .left-side ul li::marker {
+  color: #737690;
+}
+
+.content1 .right-side {
+  display: flex;
+  flex-flow: column;
+}
+
+.content1 .right-side .upper-side {
+  background: #f0f0f2;
+  display: flex;
+  padding: 5vh 5vw;
+  height: 100%;
+  flex-flow: column;
+}
+
+.content1 .right-side .upper-side .title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #737690;
+  padding-bottom: 5vh;
+}
+
+.content1 .right-side .upper-side .form {
+  display: flex;
+  flex-flow: column;
+}
+
+.content1 .right-side .upper-side .form label {
+  font-weight: bold;
+  color: #737690;
+  margin: 5px;
+}
+
+.content1 .right-side .upper-side .form input {
+  border: 1px solid #c6c6c9;
+  padding: 8px;
+  background: #ffffff;
+  border-radius: 3px;
+}
+
+.content1 .right-side .upper-side .form .email,
+.password-first,
+.password-confirm {
+  display: flex;
+  flex-flow: column;
+}
+
+.content1 .right-side .upper-side .form .password {
+  display: flex;
+  flex-flow: row;
+  padding: 2vh 0 3vh 0;
+}
+
+.content1 .right-side .upper-side .form .password .password-first {
+  margin-right: 5vw;
+}
+
+.content1 .right-side .upper-side .form .terms {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.content1 .right-side .upper-side .form .terms label {
+  font-weight: normal;
+  color: #c6c6c9;
+}
+
+.content1 .right-side .upper-side .form .terms ::placeholder {
+  color: #c6c6c9;
+}
+
+.content1 .right-side .lower-side {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row;
+  padding: 3vh 5vw;
+}
+
+.content1 .right-side .lower-side .link {
+  color: #c6c6c9;
+}
+
+.content1 .right-side .lower-side .sign-up {
+    background: #737690;
+    font-weight: bold;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
