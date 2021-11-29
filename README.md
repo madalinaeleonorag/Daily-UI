@@ -9,3 +9,8 @@ This is a collection of daily UI projects from [Daily UI](https://www.dailyui.co
 
 ![Daily UI :: 002](002/screenshot.png)
 
+
+* Daily UI :: 003
+
+![Daily UI :: 003](003/screenshot.png)
+
