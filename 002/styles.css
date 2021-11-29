@@ -1,0 +1,153 @@
+body {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(background.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  width: 40vw;
+  height: 30vh;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 2vh 2vw;
+  display: flex;
+  flex-flow: column;
+  color: rgba(73, 45, 21, 0.72);
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #ffffff;
+  box-shadow: 2px 2px 0.5em rgba(155, 122, 89, 0.55),
+    inset 1px 1px 0 rgba(255, 255, 255, 0.9),
+    inset -1px -1px 0 rgba(0, 0, 0, 0.5);
+  border: 1px solid #deca45;
+  background: -moz-linear-gradient(
+    -72deg,
+    #ffc373,
+    #ffffff 16%,
+    #ffc373 21%,
+    #ffffff 24%,
+    #a17434 27%,
+    #ffc373 36%,
+    #ffffff 45%,
+    #ffffff 60%,
+    #ffc373 72%,
+    #ffffff 80%,
+    #ffc373 84%,
+    #a17434
+  );
+  background: -webkit-linear-gradient(
+    -72deg,
+    #ffc373,
+    #ffffff 16%,
+    #ffc373 21%,
+    #ffffff 24%,
+    #a17434 27%,
+    #ffc373 36%,
+    #ffffff 45%,
+    #ffffff 60%,
+    #ffc373 72%,
+    #ffffff 80%,
+    #ffc373 84%,
+    #a17434
+  );
+  background: -o-linear-gradient(
+    -72deg,
+    #ffc373,
+    #ffffff 16%,
+    #ffc373 21%,
+    #ffffff 24%,
+    #a17434 27%,
+    #ffc373 36%,
+    #ffffff 45%,
+    #ffffff 60%,
+    #ffc373 72%,
+    #ffffff 80%,
+    #ffc373 84%,
+    #a17434
+  );
+  background: linear-gradient(
+    -72deg,
+    #ffc373,
+    #ffffff 16%,
+    #ffc373 21%,
+    #ffffff 24%,
+    #a17434 27%,
+    #ffc373 36%,
+    #ffffff 45%,
+    #ffffff 60%,
+    #ffc373 72%,
+    #ffffff 80%,
+    #ffc373 84%,
+    #a17434
+  );
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.content .bank-name {
+  text-align: right;
+}
+
+.content .chip {
+  display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.content .chip .chip-img {
+  width: auto;
+  height: 60px;
+}
+
+.content .chip .mastercard {
+  width: 50px;
+  height: 35px;
+}
+
+.content .number {
+  display: flex;
+  flex-flow: row;
+  font-size: 2rem;
+}
+
+.content .number .pair {
+  padding-right: 7px;
+  padding-right: 12px;
+}
+
+.content .personal-info {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.content .personal-info .name {
+  display: flex;
+  flex-flow: column;
+}
+
+.content .personal-info .name .label {
+}
+
+.content .personal-info .name .user-name {
+  font-size: 1.2rem;
+}
+
+.content .personal-info .valid-date {
+  display: flex;
+  flex-flow: row;
+  width: min-content;
+}
+
+.content .personal-info .valid-date .label {
+  padding-right: 5px;
+  font-size: 0.5rem;
+}
+
+.content .personal-info .valid-date .date {
+  font-size: 1.3rem;
+  line-height: 1.2rem;
+}

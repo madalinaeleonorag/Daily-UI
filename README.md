@@ -5,3 +5,7 @@ This is a collection of daily UI projects from [Daily UI](https://www.dailyui.co
 
 ![Daily UI :: 001](001/screenshot.png)
 
+* Daily UI :: 002
+
+![Daily UI :: 002](001/screenshot.png)
+
