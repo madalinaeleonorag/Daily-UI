@@ -14,3 +14,13 @@ This is a collection of daily UI projects from [Daily UI](https://www.dailyui.co
 
 ![Daily UI :: 003](003/screenshot.png)
 
+
+* Daily UI :: 004
+
+![Daily UI :: 004](004/screenshot.png)
+
+
+* Daily UI :: 005
+
+![Daily UI :: 005](005/screenshot.png)
+

@@ -1,11 +1,20 @@
 body {
   color: white;
   font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  background: repeating-linear-gradient(
+    45deg,
+    darkslategray,
+    transparent 100px
+  );
+  justify-content: center;
 }
 
 .interface {
   background: darkslategray;
   height: 80vh;
+  box-shadow: 0px 0px 18px 1px black;
   width: 30vw;
   border-radius: 20px;
   display: flex;
@@ -18,6 +27,7 @@ body {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .interface .mobile-toolbar .left {
@@ -28,24 +38,41 @@ body {
 }
 
 .interface .mobile-toolbar .right {
+  align-items: center;
   display: flex;
   flex-flow: row;
 }
 
 .interface .mobile-toolbar .right .signal {
+  fill: white;
+  height: 15px;
 }
 
 .interface .mobile-toolbar .right .wifi {
+  padding: 0 5px;
+  height: 15px;
 }
 
 .interface .mobile-toolbar .right .battery {
+  height: 25px;
+  fill: white;
 }
 
 .interface .result {
+  background: #0000000f;
+  border-radius: 7px;
+  padding: 10px;
+  height: inherit;
+  margin: 11px 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  place-items: flex-end;
 }
 
 .interface .result .result-calculation {
   font-weight: bold;
+  font-size: xxx-large;
 }
 
 .interface .result .formula {
@@ -64,10 +91,10 @@ body {
 .interface .buttons .button {
   color: lightsteelblue;
   flex: 1 0 15%;
-  box-shadow: 0px 0px 19px -3px black;
+  box-shadow: 0px 0px 13px -5px black;
   border-radius: 12px;
   padding: 20px 8px;
-  margin: 5px;
+  margin: 9px;
 }
 
 .interface .buttons .button.number {
