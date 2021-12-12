@@ -24,3 +24,8 @@ This is a collection of daily UI projects from [Daily UI](https://www.dailyui.co
 
 ![Daily UI :: 005](005/screenshot.png)
 
+
+* Daily UI :: 006
+
+![Daily UI :: 006](006/screenshot.png)
+
