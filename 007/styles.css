@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background: lightgray;
+  padding: 0;
+  line-height: 1.5rem;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  place-content: center;
+}
+
+.content {
+  background: white;
+  height: 70vh;
+  width: 50vw;
+  padding: 15px 25px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0px 0px 14px -6px black;
+}
+
+.title {
+  font-weight: bold;
+  font-size: x-large;
+  padding: 10px 0;
+}
+
+.image {
+  margin-right: 10px;
+}
+
+.action {
+  margin-left: auto;
+}
+
+.custom-row {
+  display: flex;
+  font-size: smaller;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 12px 0;
+  flex-flow: row;
+  align-items: center;
+}
+
+.text {
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.image svg {
+  width: 25px;
+}
+
+.action svg {
+  width: 12px;
+}
+
+.subtitle {
+  font-weight: bold;
+  padding: 7px 0;
+}
