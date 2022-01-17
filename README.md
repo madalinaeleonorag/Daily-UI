@@ -34,3 +34,8 @@ This is a collection of daily UI projects from [Daily UI](https://www.dailyui.co
 
 ![Daily UI :: 007](007/screenshot.png)
 
+
+* Daily UI :: 008
+
+![Daily UI :: 008](008/screenshot.gif)
+
