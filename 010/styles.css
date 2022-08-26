@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  place-content: center;
+  height: 100%;
+  flex-flow: column;
+  background: linear-gradient(#f79091, #708cbf);
+}
+
+.wrapper:hover .share {
+  display: none;
+}
+
+.wrapper:hover .socials {
+  display: inline-flex;
+}
+
+.wrapper .share,
+.socials {
+  border: 3px solid black;
+  height: 60px;
+  align-items: center;
+  padding: 10px;
+  min-width: 300px;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #ffffff40;
+}
+
+.share,
+.icon {
+  cursor: pointer;
+}
+
+.share {
+  display: flex;
+  font-size: 2rem;
+  font-family: system-ui;
+}
+
+.socials {
+  display: flex;
+  flex-flow: row;
+  display: none;
+}
+
+.socials .icon {
+  width: 50px;
+  height: 50px;
+  background-size: cover !important;
+  background-position: center !important;
+  margin: 10px;
+}
+
+.socials .icon.facebook {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/800px-Facebook_Logo_%282019%29.png");
+}
+
+.socials .icon.instagram {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1200px-Instagram-Icon.png");
+}
+
+.socials .icon.linkedin {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png");
+}
+
+.socials .icon.link {
+  background: url("https://cdn2.iconfinder.com/data/icons/pittogrammi/142/95-512.png");
+}

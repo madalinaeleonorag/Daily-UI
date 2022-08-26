@@ -37,3 +37,7 @@ This is a collection of daily UI projects from [Daily UI](https://www.dailyui.co
 - Daily UI :: 009
 
 ![Daily UI :: 009](009/screenshot.png)
+
+- Daily UI :: 010
+
+![Daily UI :: 010](010/screenshot.gif)
