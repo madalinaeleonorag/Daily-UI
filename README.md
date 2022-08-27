@@ -41,3 +41,7 @@ This is a collection of daily UI projects from [Daily UI](https://www.dailyui.co
 - Daily UI :: 010
 
 ![Daily UI :: 010](010/screenshot.gif)
+
+- Daily UI :: 011
+
+![Daily UI :: 011](011/screenshot.png)
